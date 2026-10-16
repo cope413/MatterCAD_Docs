@@ -60,7 +60,7 @@ An MCX file also remembers the view you saved it with - the direction, zoom and 
 ## Tips
 
 - Always save an MCX copy of your design before exporting to 3MF, STL or OBJ, so you can make changes later
-- STL keeps your objects separate unless you tick **Performe Union** in the export options, which merges them into a single mesh
+- STL keeps your objects separate unless you tick **Perform Union** in the export options, which merges them into a single mesh
 - Holes are applied for you when you export to STL, 3MF or OBJ. None of those formats can say "this shape is a hole", so MatterCAD subtracts each hole from the parts it overlaps and leaves the hole itself out of the file. Your design is not changed - only the exported copy
 - If you need to share a design with someone who uses MatterCAD, send the MCX file to preserve full editability
 - You can also save designs to your [Cloud Library](../library/cloud-library.md) for access from any computer
